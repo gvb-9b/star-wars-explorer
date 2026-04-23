@@ -8,7 +8,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/star-wars-explorer">
       <ThemeProvider>
         <App />
       </ThemeProvider>
